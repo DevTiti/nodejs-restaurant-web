@@ -1,5 +1,5 @@
-# Use Node.js 16 slim as the base image
-FROM node:16-slim
+# Use Node.js 18 slim as the base image
+FROM node:18-slim
 
 
 # Set the working directory

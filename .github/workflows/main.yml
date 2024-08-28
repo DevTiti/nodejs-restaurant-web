@@ -1,4 +1,4 @@
-name: Creating Node.js app. image and deploying to ECR or dockerhub
+name: Creating Node.js app image and deploying dockerhub
 on:
   push:
      branches:
