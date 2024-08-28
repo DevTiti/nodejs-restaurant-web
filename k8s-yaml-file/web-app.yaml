@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: restaurant-web-app-container
-        image: titi10/node.js-restaurant-web-application:latest
+        image: titi10/node.js-restaurant-web-application:6
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
