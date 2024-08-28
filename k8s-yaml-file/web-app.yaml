@@ -10,7 +10,7 @@ metadata:
   name: restaurant-web-app-deployment
   namespace: restaurant-ns
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
       app: restaurant-web-application
