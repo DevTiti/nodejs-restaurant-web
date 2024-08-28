@@ -14,6 +14,10 @@ spec:
   selector:
     matchLabels:
       app: restaurant-web-application
+  template:
+    metadata:
+      labels:
+        app: restaurant-web-application
     spec:
       containers:
       - name: restaurant-web-app-container
